@@ -1,0 +1,19 @@
+node_modules
+dist
+.DS_Store
+server/public
+vite.config.ts.*
+*.tar.gz
+
+# Replit-specific files (to be excluded from deployment)
+.replit
+replit.nix
+generated-icon.png
+attached_assets/
+
+# Deployment files
+.vercel
+.netlify
+
+# Environment variables
+.env
